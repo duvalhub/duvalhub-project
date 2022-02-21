@@ -5,6 +5,47 @@
     <artifactId>duvalhub-starters</artifactId>
     <version>1.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <name>Duvalhub Project</name>
+    <description>
+        The Duvalhub Project.
+    </description>
+    <url>https://github.com/duvalhub/</url>
+
+    <licenses>
+        <license>
+            <name>The MIT License</name>
+            <url>https://raw.githubusercontent.com/duvalhub/duvalhub-project/master/LICENSE.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>huguesmcd</id>
+            <name>Hugues McNeil-Duval</name>
+            <email>hugues@duvalhub.com</email>
+            <organization>Duvalhub</organization>
+            <organizationUrl>https://github.com/duvalhub/</organizationUrl>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+            <timezone>-5</timezone>
+        </developer>
+        <developer>
+            <id>philippeduval</id>
+            <name>Philippe Duval</name>
+            <email>philippe@duvalhub.com</email>
+            <organization>Duvalhub</organization>
+            <organizationUrl>https://github.com/duvalhub/</organizationUrl>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+            <timezone>-5</timezone>
+        </developer>
+    </developers>
+
     <scm>
         <developerConnection>scm:git:ssh://git@github.com/duvalhub/duvalhub-starters.git</developerConnection>
         <tag>HEAD</tag>
