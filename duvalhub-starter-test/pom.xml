@@ -3,7 +3,7 @@
     <parent>
         <groupId>com.duvalhub</groupId>
         <artifactId>duvalhub-starter-parent</artifactId>
-        <version>1.0.3-SNAPSHOT</version>
+        <version>1.0.3</version>
         <relativePath>../duvalhub-starter-parent</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -20,4 +20,8 @@
             <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
     </dependencies>
+
+  <scm>
+    <tag>1.0.3</tag>
+  </scm>
 </project>
