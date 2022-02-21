@@ -1,14 +1,13 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.duvalhub</groupId>
     <artifactId>duvalhub-starters</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <scm>
         <developerConnection>scm:git:ssh://git@github.com/duvalhub/duvalhub-starters.git</developerConnection>
-      <tag>1.0.0</tag>
-  </scm>
+    </scm>
     <modules>
         <module>duvalhub-starter-parent</module>
         <module>duvalhub-core</module>
