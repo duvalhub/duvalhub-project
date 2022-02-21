@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.duvalhub</groupId>
-    <artifactId>duvalhub-starters</artifactId>
+    <artifactId>duvalhub-project</artifactId>
     <version>1.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Duvalhub Project</name>
@@ -47,7 +47,7 @@
     </developers>
 
     <scm>
-        <developerConnection>scm:git:ssh://git@github.com/duvalhub/duvalhub-starters.git</developerConnection>
+        <developerConnection>scm:git:ssh://git@github.com/duvalhub/duvalhub-project.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
     <modules>
