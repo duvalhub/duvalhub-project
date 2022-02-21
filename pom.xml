@@ -49,6 +49,7 @@
     <scm>
         <developerConnection>scm:git:ssh://git@github.com/duvalhub/duvalhub-project.git</developerConnection>
         <tag>HEAD</tag>
+        <url>https://github.com/duvalhub/duvalhub-project.git</url>
     </scm>
     <modules>
         <module>duvalhub-starter-parent</module>
