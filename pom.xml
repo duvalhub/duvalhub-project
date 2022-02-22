@@ -10,6 +10,20 @@
         The Duvalhub Project.
     </description>
     <url>https://github.com/duvalhub/</url>
+    <properties>
+        <java.version>11</java.version>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <maven.plugin.release.version>3.0.0-M5</maven.plugin.release.version>
+    </properties>
+
+    <modules>
+        <module>duvalhub-starter-parent</module>
+        <module>duvalhub-core</module>
+        <module>duvalhub-starter</module>
+        <module>duvalhub-starter-test</module>
+        <module>duvalhub-starter-web</module>
+    </modules>
 
     <licenses>
         <license>
@@ -45,27 +59,11 @@
             <timezone>-5</timezone>
         </developer>
     </developers>
-
     <scm>
         <developerConnection>scm:git:ssh://git@github.com/duvalhub/duvalhub-project.git</developerConnection>
         <tag>HEAD</tag>
         <url>https://github.com/duvalhub/duvalhub-project.git</url>
     </scm>
-    <modules>
-        <module>duvalhub-starter-parent</module>
-        <module>duvalhub-core</module>
-        <module>duvalhub-starter</module>
-        <module>duvalhub-starter-test</module>
-        <module>duvalhub-starter-web</module>
-    </modules>
-
-    <properties>
-        <java.version>11</java.version>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-        <maven.plugin.release.version>3.0.0-M5</maven.plugin.release.version>
-    </properties>
-
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
