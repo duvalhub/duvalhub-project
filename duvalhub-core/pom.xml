@@ -4,11 +4,11 @@
         <parent>
             <groupId>com.duvalhub</groupId>
             <artifactId>duvalhub-starter-parent</artifactId>
-            <version>1.0.6-SNAPSHOT</version>
+            <version>1.0.5-SNAPSHOT</version>
             <relativePath>../duvalhub-starter-parent</relativePath>
         </parent>
     <artifactId>duvalhub-core</artifactId>
-    <version>1.0.6-SNAPSHOT</version>
+    <version>1.0.5-SNAPSHOT</version>
     <properties>
         <java.version>11</java.version>
         <maven.compiler.source>11</maven.compiler.source>
