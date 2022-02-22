@@ -23,6 +23,8 @@
         <module>duvalhub-starter</module>
         <module>duvalhub-starter-test</module>
         <module>duvalhub-starter-web</module>
+        <module>duvalhub-starter-role-permission</module>
+        <module>duvalhub-role-permission</module>
     </modules>
 
     <licenses>

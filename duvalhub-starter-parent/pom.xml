@@ -47,6 +47,16 @@
                 <artifactId>spring-cloud-starter-config</artifactId>
                 <version>${spring-cloud.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.duvalhub</groupId>
+                <artifactId>duvalhub-starter-role-permission</artifactId>
+                <version>${duvalhub.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.duvalhub</groupId>
+                <artifactId>duvalhub-role-permission</artifactId>
+                <version>${duvalhub.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <distributionManagement>
