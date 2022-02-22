@@ -3,7 +3,7 @@
 
     <groupId>com.duvalhub</groupId>
     <artifactId>duvalhub-project</artifactId>
-    <version>1.0.12-SNAPSHOT</version>
+    <version>1.0.12</version>
     <packaging>pom</packaging>
     <name>Duvalhub Project</name>
     <description>
@@ -63,7 +63,7 @@
     </developers>
     <scm>
         <developerConnection>scm:git:ssh://git@github.com/duvalhub/duvalhub-project.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>1.0.12</tag>
         <url>https://github.com/duvalhub/duvalhub-project.git</url>
     </scm>
     <distributionManagement>
