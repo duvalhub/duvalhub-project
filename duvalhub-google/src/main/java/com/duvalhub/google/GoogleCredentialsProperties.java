@@ -23,8 +23,6 @@ public class GoogleCredentialsProperties {
 
   public void setPrivateKey(String privateKey) {
     this.privateKey = new String(Base64.getDecoder().decode(privateKey), StandardCharsets.UTF_8);
-    System.out.println(this.privateKey);
-//    this.privateKey = privateKey.replaceAll("\\\\n", "\n");
   }
 }
 
