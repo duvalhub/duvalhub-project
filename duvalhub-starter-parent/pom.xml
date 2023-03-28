@@ -10,10 +10,10 @@
 
     <groupId>com.duvalhub</groupId>
     <artifactId>duvalhub-starter-parent</artifactId>
-    <version>1.0.13-SNAPSHOT</version>
+    <version>1.1.0</version>
     <packaging>pom</packaging>
     <properties>
-        <duvalhub.version>1.0.13-SNAPSHOT</duvalhub.version>
+        <duvalhub.version>1.1.0</duvalhub.version>
         <spring-cloud.version>3.1.1</spring-cloud.version>
         <maven.plugin.release.version>3.0.0-M5</maven.plugin.release.version>
         <java.version>11</java.version>
@@ -60,17 +60,17 @@
             <dependency>
                 <groupId>com.duvalhub</groupId>
                 <artifactId>duvalhub-starter-google</artifactId>
-                <version>1.0.13-SNAPSHOT</version>
+                <version>1.1.0</version>
             </dependency>
             <dependency>
                 <groupId>com.duvalhub</groupId>
                 <artifactId>duvalhub-starter-google-autoconfiguration</artifactId>
-                <version>1.0.13-SNAPSHOT</version>
+                <version>1.1.0</version>
             </dependency>
             <dependency>
                 <groupId>com.duvalhub</groupId>
                 <artifactId>duvalhub-google</artifactId>
-                <version>1.0.13-SNAPSHOT</version>
+                <version>1.1.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -166,4 +166,8 @@
             <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
         </repository>
     </repositories>
+
+  <scm>
+    <tag>1.1.0</tag>
+  </scm>
 </project>
