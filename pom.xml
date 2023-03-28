@@ -25,6 +25,9 @@
         <module>duvalhub-starter-web</module>
         <module>duvalhub-starter-role-permission</module>
         <module>duvalhub-role-permission</module>
+        <module>duvalhub-starter-google</module>
+        <module>duvalhub-starter-google-autoconfiguration</module>
+        <module>duvalhub-google</module>
     </modules>
 
     <licenses>

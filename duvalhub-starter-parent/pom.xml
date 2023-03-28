@@ -57,6 +57,21 @@
                 <artifactId>duvalhub-role-permission</artifactId>
                 <version>${duvalhub.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.duvalhub</groupId>
+                <artifactId>duvalhub-starter-google</artifactId>
+                <version>1.0.13-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.duvalhub</groupId>
+                <artifactId>duvalhub-starter-google-autoconfiguration</artifactId>
+                <version>1.0.13-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.duvalhub</groupId>
+                <artifactId>duvalhub-google</artifactId>
+                <version>1.0.13-SNAPSHOT</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <distributionManagement>
