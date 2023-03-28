@@ -4,11 +4,11 @@
     <parent>
         <groupId>com.duvalhub</groupId>
         <artifactId>duvalhub-starter-parent</artifactId>
-        <version>1.1.0</version>
+        <version>1.1.1-SNAPSHOT</version>
         <relativePath>../duvalhub-starter-parent</relativePath>
     </parent>
     <artifactId>duvalhub-starter-google</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1-SNAPSHOT</version>
     <properties>
         <java.version>11</java.version>
         <maven.compiler.source>11</maven.compiler.source>
@@ -32,8 +32,4 @@
             <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
         </repository>
     </repositories>
-
-  <scm>
-    <tag>1.1.0</tag>
-  </scm>
 </project>
