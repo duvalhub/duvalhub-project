@@ -8,5 +8,5 @@ Maven prepare release and answer the question about the new version
 ```mvn release:prepare -Prelease```
 
 Maven publish release
-```mvn -Dmaven.central.username="$(pass maven-central/username)" -Dmaven.central.password="$(maven-central/password)" release:perform -Prelease```
+```mvn -Dmaven.central.username="$(pass maven-central/username)" -Dmaven.central.password="$(pass maven-central/password)" release:perform -Prelease```
 
