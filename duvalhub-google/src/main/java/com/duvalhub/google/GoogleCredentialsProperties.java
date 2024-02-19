@@ -1,10 +1,10 @@
 package com.duvalhub.google;
 
+import jakarta.validation.constraints.NotEmpty;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.validation.annotation.Validated;
 
-import javax.validation.constraints.NotEmpty;
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 
